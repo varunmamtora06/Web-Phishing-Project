@@ -50,7 +50,7 @@ networkx==2.5
 nltk==3.5
 notebook==6.0.2
 numpy==1.17.4
-opencv-contrib-python-headless==4.4.0.42
+opencv-contrib-python-headless==4.5.2.52
 opencv-python==4.4.0.44
 packaging==20.9
 pandas==0.25.3
