@@ -72,7 +72,7 @@ python-whois-extended==0.7.12
 pythonwhois==2.4.3
 pyttsx3==2.90
 pytz==2019.3
-pywin32==227
+pywin32==300
 pywinpty==0.5.7
 pyzmq==18.1.1
 qtconsole==4.6.0
