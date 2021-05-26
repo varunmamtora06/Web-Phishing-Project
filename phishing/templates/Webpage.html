@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Phishing Website Detection</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Web Phishing Detection</h1>
+  <p>Check the legitimacy of a website with highest accuracy</p>
+  <form class="form-inline" action="phishing/submitted" method="post">{% csrf_token %}
+    <div class="input-group">
+      <input type="input" name="URL" class="form-control" size="50" placeholder="Enter Website's URL" required>
+      <div class="input-group-btn">
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="container-fluid text-center">
+  <h2>TOOLS AND TECHNOLOGIES</h2>
+  <--<h4>What we used</h4> -->
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://img.icons8.com/color/48/000000/python.png"/>
+      <h4>PYTHON</h4>
+
+    </div>
+    <div class="col-sm-4">
+      <img src="https://img.icons8.com/ios/50/000000/django.png"/>
+      <h4>DJANGO</h4>
+      <!-- <p>Lorem ipsum dolor sit amet..</p> -->
+    </div>
+    <div class="col-sm-4">
+      <img src="https://img.icons8.com/doodle/48/000000/soup-plate.png"/>
+      <h4>BEAUTIFUL SOUP</h4>
+      <!-- <p>Lorem ipsum dolor sit amet..</p> -->
+    </div>
+    </div>
+    <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://img.icons8.com/fluent/48/000000/spyder-ide.png"/>
+      <h4>SPYDER IDE</h4>
+      <!-- <p>Lorem ipsum dolor sit amet..</p> -->
+    </div>
+    <div class="col-sm-4">
+      <img src="https://img.icons8.com/clouds/100/000000/atom-editor.png"/>
+      <h4>ATOM CODE EDITOR</h4>
+      <!-- <p>Lorem ipsum dolor sit amet..</p> -->
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
