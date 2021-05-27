@@ -1,1 +1,1 @@
-web: gunicorn WebPhishing.wsgi 
+web: gunicorn --pythonpath WebPhishing WebPhishing.wsgi --log-file -

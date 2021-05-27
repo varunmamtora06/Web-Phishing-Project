@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'WebPhishing.WebPhishing.urls'
+ROOT_URLCONF = 'WebPhishing.urls'
 
 TEMPLATES = [
     {
