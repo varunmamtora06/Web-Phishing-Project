@@ -63,6 +63,7 @@ prompt-toolkit==2.0.10
 psycopg2==2.8.6
 Pygments==2.5.2
 pyparsing==2.4.5
+pypiwin32==223
 pyrsistent==0.15.6
 PySocks==1.7.1
 python-dateutil==2.8.1
@@ -72,6 +73,7 @@ python-whois-extended==0.7.12
 pythonwhois==2.4.3
 pyttsx3==2.90
 pytz==2019.3
+pywin32==300
 pywinpty==0.5.7
 pyzmq==18.1.1
 qtconsole==4.6.0
