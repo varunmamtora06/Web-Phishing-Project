@@ -1,1 +1,1 @@
-web: gunicorn WebPhishing.wsgi 
+web: gunicorn WebPhishing.WebPhishing.wsgi 
